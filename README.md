@@ -1,6 +1,13 @@
 # Getting Started with Create React App
 
-<img src="src/asset/1.png" />
+<img src="src/asset/1.png"/>
+<img src="src/asset/2.png"/>
+<img src="src/asset/3.png"/>
+<img src="src/asset/4.png"/>
+<img src="src/asset/5.png"/>
+<img src="src/asset/6.png"/>
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
