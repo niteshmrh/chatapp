@@ -2,8 +2,8 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
 
-export const AuthContext = createContext();
-export const useAuth = () => useContext(AuthContext);
+export const authContext = createContext();
+export const useAuth = () => useContext(authContext);
 
 export const AuthProvider = (props) => {
   const [loading, setLoading] = useState(true);
@@ -28,8 +28,8 @@ export const AuthProvider = (props) => {
   const value = { user };
 
   return (
-    <AuthContext.Provider value={value}>
+    <authContext.Provider value={value}>
       {!loading && props.children}
-    </AuthContext.Provider>
+    </authContext.Provider>
   );
 };
